@@ -21,7 +21,7 @@
     "url": "https://github.com/web-companions/openapi-ts"
   },
   "scripts": {
-    "dev": "tsup ./packages/parser/src/test.ts --target node12 --clean --watch src"
+    "dev": "tsup ./packages/parser/src/index.ts --target node16 --clean --watch src"
   },
   "dependencies": {
     "@apidevtools/swagger-parser": "^10.1.0",
