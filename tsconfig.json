@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "outDir": "dist",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["ES2021"],
+    "module": "ES2020",
+    "moduleResolution": "node",
+    "target": "ES2021",
+    "useDefineForClassFields": false,
+    "allowJs": false,
+    "strict": true,
+    "noUnusedLocals": true,
+    "experimentalDecorators": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "paths": {
+      "@openapi-ts/*": ["packages/*/src"]
+    }
+  },
+  "include": ["packages/*/src", "packages/*/__tests__"]
+}
